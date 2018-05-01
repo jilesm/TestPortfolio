@@ -1,0 +1,19 @@
+.wrapper {
+    width: 100%;
+}
+
+#header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 {
+    color: rgb(94, 212, 16);
+   
+}
+
+body {
+    background-color: teal;
+}
