@@ -6,7 +6,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding-bottom: 5em;
+    text-align: center;
 }
 
 #header h1 {
@@ -15,5 +16,10 @@
 }
 
 body {
-    background-color: teal;
+    background-color: white;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
