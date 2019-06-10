@@ -1,3 +1,18 @@
+/* Style for nav bar */
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    
+}
+
+.nav .navbar-nav {
+    /* padding-left: 25em; */
+    margin: 0;
+    display: block;
+    padding-left: 25em;
+}
+
+/* End of nav bar */
 .wrapper {
     width: 100%;
 }
