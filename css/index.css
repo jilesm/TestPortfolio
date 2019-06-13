@@ -5,11 +5,42 @@ header {
     
 }
 
-.nav .navbar-nav {
-    /* padding-left: 25em; */
-    margin: 0;
-    display: block;
-   
+#intro {
+    position: relative;
+    height: 60vh;
+    min-height:500px;
+    max-height:1080px;
+    background:url(../images/computer.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#intro-content {
+    position: absolute;
+    z-index:10;
+    top:25%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+}
+
+#intro-content h1 {
+    color:#fff;
+    font-weight:500;
+    font-size:4em;
+    line-height:0.9em;
+    letter-spacing:0.03em;
+}
+#intro-content h2 {
+    color:#a0cfee;
+    font-weight:200;
+    font-size: 2em;
+    letter-spacing:0.03em;
+    margin-bottom:15px
+}
+
+.btn-default {
+    background-color:#0066cc;
 }
 
 /* End of nav bar */
