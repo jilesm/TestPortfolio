@@ -55,7 +55,7 @@ header {
 }
 
 #detail  {
-    padding:75px 15px;
+    padding:55px 15px;
     border-bottom:8px solid lightblue
 }
 
@@ -88,7 +88,9 @@ p {
 }
 
 .heading {
+    padding:20px 5px;
     color: black;
+    border-bottom: 8px solid lightblue;
 }
 
 #work {
@@ -99,7 +101,7 @@ p {
 }
 
 
-/* Timeline */
+/* Timeline css*/
 
 .timeline ul{
     background: #456990;
@@ -172,6 +174,9 @@ p {
     margin-bottom: 8px;
   }
 
+  
+  
+
 /* EFFECTS for timeline
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -203,6 +208,52 @@ p {
   opacity: 1;
 }
 
+/* Project CSS */
+
+#project {
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+    /* border-top: 8px solid lightblue; */
+}
+
+.project {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #0066cc;
+    border-radius: 4px;
+}
+/* Still need to add img for projects */
+/* .project-image{
+    float:left
+}
+.img{
+	height: 300px;
+    width: 250px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* GENERAL MEDIA QUERIES for timeline
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -233,6 +284,4 @@ p {
     border-color: transparent black transparent transparent;
   }
 }
-
-
 
