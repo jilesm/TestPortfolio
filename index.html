@@ -75,7 +75,7 @@
 <div id="detail">
     <div class="containter">
         <div class="row">
-          <div class="col-md-4 border">
+          <div class="col-md-4 ">
             <h2 class= "head">Details On Me</h2>
           </div>
           <div class="col-md-8">
@@ -140,9 +140,9 @@
   <!-- Beginning of of Projects  -->
   <div id="project" class = "background-alt">
       <h2 class= "heading">Projects</h2>
-      <div id="container">
+      <div class="container">
           <div class="row">
-            <div class="project shadow-lg">
+            <div class="project shadow-large">
               <!-- Image section  -->
             <div class="project-image">
                   <img class = "img" src="images/reddit.png"/>
@@ -156,7 +156,7 @@
         </div>
         <!-- End of project info -->
         </div>
-            <div class="project shadow-lg">
+            <div class="project shadow-large">
               <!-- Image section  -->
             <div class="project-image">
                   <img class = "img" src="images/reddit.png"/>
@@ -192,11 +192,38 @@
         </div>
         
       <!-- End project -->
+<!-- Skill Set -->
+    <div id ="skills">
+      <h2 class= "heading">Skill Set</h2>
+      <ul>
+        <li>PHP</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>SQL</li>
+        <li>Visual Studio</li>
+        <li>COBOL</li>
+        <li>React</li>
+      </ul>
+    </div>
+<!-- End of Skills -->
+
+<!-- Contact -->
+    <div id ="contact">
+        <h2>Reach out to me</h2>
+        <div id ="contact-form">
+            <form method="POST" action="">
+              <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
 
   <!--Footer Section-->
   <footer class = "footer">
     <div class = "containter">
-      <span class= "text-muted">Copyright 2018.</span>
+      <span class= "text-muted">Copyright 2019.</span>
     </div>
   </footer>
  <script src = "js/timeline.js"></script>
